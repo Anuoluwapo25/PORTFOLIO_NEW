@@ -1,8 +1,5 @@
-// Projects Component
-
-import musicApp from "../assets/projects/SMILEnow.jpeg";
-import launchingSoon from "../assets/projects/launchingSoon.png";
-import wardDiere from "../assets/projects/wardDiere.png";
+import payvest from "../assets/projects/payvest.jpeg";
+import bryo from "../assets/projects/bryo.jpeg";
 import bookLib from "../assets/projects/nexushome.jpeg"
 import bookMgt from "../assets/projects/libraryMS.jpeg"
 
@@ -10,34 +7,29 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: bookLib,
-      codeLink: "https://github.com/Anuoluwapo25/subproject-Django",
-      demoLink: "https://learnpath-vpca.onrender.com",
+      src: bryo,
+      codeLink: "https://github.com/Anuoluwapo25/byro",
+      demoLink: "https://www.byro.africa",
     },
     {
       id: 2,
+      src: payvest,
+      codeLink: "https://github.com/Anuoluwapo25/OvalPay",
+      demoLink: "https://vest-pay.vercel.app",
+    },
+    {
+      id: 3,
       src: bookMgt,
       codeLink: "https://github.com/Anuoluwapo25/Library-management-system",
       demoLink: "https://library-management-system-pbnj.onrender.com",
     },
-    {
-      id: 3,
-      src: musicApp,
-      codeLink: "https://smile-now.vercel.app",
-      demoLink: "https://github.com/Anuoluwapo25/Smile-Now",
+     {
+      id: 4,
+      src: bookLib,
+      codeLink: "https://github.com/Anuoluwapo25/subproject-Django",
+      demoLink: "https://learnpath-vpca.onrender.com",
     },
-    // {
-    //   id: 4,
-    //   src: launchingSoon,
-    //   codeLink: "https://github.com/mrtewogbade",
-    //   demoLink: "https://www.example.com/project2-demo",
-    // },
-    // {
-    //   id: 5,
-    //   src: wardDiere,
-    //   codeLink: "https://github.com/mrtewogbade",
-    //   demoLink: "https://www.example.com/project3-demo",
-    // },
+  
   ];
 
   return (
